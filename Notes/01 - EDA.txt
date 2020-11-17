@@ -1,0 +1,32 @@
+Exploratory Data Analysis refers to the critical process of performing initial investigations on data so as to discover patterns,
+to spot anomalies,to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.
+
+
+s1 - Problem and Data Identification
+s2 - EDA and preprocessing
+s3 - Model selection(ML/DL),training of the model,testing of the model
+s4 - Productionize/ hosting of the solution (reporting)
+
+75% of the time is spend for EDA and preprocessing.
+
+EDA -Exploratory Data Analysis
+This is one of the most important steps in Data Analytics
+
+Exploratory Data Analysis (EDA) is an approach/philosophy for data analysis that employs a variety of techniques (mostly graphical) to
+
+	- maximize insight into a data set;
+	- uncover underlying structure;
+	- extract important variables;
+	- detect outliers and anomalies;
+
+for EDA we will be using Pandas,Matplotlib and Seaborn (for visualization)
+
+General outline for EDA
+1.Preview data - head(),tail(),describe(),info()
+2.Check total number of entries and column types -shape,dtypes
+3.Check any null values -isna() - identify the methods to remove/replace null values
+4.Check duplicate entries - duplicated(),drop_duplicate()
+5.Check outlier values - identify the methods to remove/replace outlier values
+6.Plot distribution of numeric data (univariate and pairwise joint distribution) - different graphs
+7.Plot count distribution of categorical data -histogram/boxplot
+8.Analyse time series of numeric data by daily, monthly and yearly frequencies - this is for timeseries data.
